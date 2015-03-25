@@ -1,0 +1,184 @@
+body {
+  background-image:url(http://subtlepatterns.com/patterns/footer_lodyas.png);
+  border: 3px ridge rgba(60,142,238,0.5);
+  margin-bottom:45px;
+}
+
+p, ul, li{
+  font-family: Helvetica,'·L³n¥¿¶ÂÅé', sans-serif;
+  font-size: 17px;
+}
+
+h1, p, ul, li {
+  color:rgba(238,72,60,1);
+}
+
+h2 {
+  position:relative;
+  font-size: 4.5em ;
+  background: #42ffbb; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #42ffbb 0%, #42ccff 98%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#42ffbb), color-stop(98%,#42ccff)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #42ffbb 0%,#42ccff 98%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #42ffbb 0%,#42ccff 98%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #42ffbb 0%,#42ccff 98%); /* IE10+ */
+  background: linear-gradient(135deg,  #42ffbb 0%,#42ccff 98%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42ffbb', endColorstr='#42ccff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  margin-left:50px;
+  margin-right:50px;
+  margin-bottom:70px;
+  padding:20px;
+  color:rgba(64,74,85,1);
+  text-shadow: 5px 5px 10px #5695BB;
+
+}
+
+h1 {
+  border-bottom:1px solid;
+  font-weight:bold;
+}
+
+.first_group {
+  display:inline-block;
+  max-width:400px;
+  margin-left:80px;
+}
+
+.year_semester,
+.course_name {
+  margin-top:30px;
+  margin-bottom:50px;
+  box-sizing:border-box;
+}
+
+.year_semester h1,
+.course_name h1{
+  margin-right:50px;
+}
+
+.second_group {
+  display:inline-block;
+  margin-bottom:100px;
+  margin-left:30px;
+  margin-right:50px;
+}
+
+.instructor,
+.course_type,
+.credits {
+  display:inline-block;
+  margin-left:50px;
+  width:170px;
+}
+
+.narrative {
+  display:inline-block;
+  max-width:600px;
+  margin-left:80px;
+  margin-right:50px;
+}
+
+.narrative p{
+  margin-bottom:50px;
+}
+
+.schedule {
+  display:inline-block;
+  max-width:400px;
+  margin-left:80px;
+}
+
+.schedule h1 {
+  margin-right:50px;
+}
+
+.schedule li:nth-child(even) {
+  background-color:rgba(64,74,85,0.3);  
+  border-right:8px solid rgba(64,74,85,1);
+}
+
+.schedule li:nth-child(odd) {
+  background-color:rgba(73,74,85,0.5);  
+  border-right:8px solid rgba(73,74,85,1);
+}
+
+.third_group {  
+  display:inline-block;
+  margin-left:80px;
+  margin-right:50px;
+}
+
+.standards,
+.references,
+.attachment {
+  margin-bottom:50px;
+}
+
+aside {
+  padding-bottom:10px;
+  margin:50px 50px 100px 80px;
+  display:inline-block;
+  background-color:rgba(73,74,85,0.5);
+
+-webkit-box-shadow: 5px 5px 40px 5px rgba(238,129,85,0.3);
+box-shadow: 5px 5px 40px 5px rgba(238,129,85,0.3);
+
+}
+
+.analysis,
+.self_evaluation,
+.proportion {
+  display:inline-block;
+  margin-right:50px;
+  margin-left:10px;
+  vertical-align: top;
+}
+
+.self_evaluation {
+  max-width:400px;
+}
+
+img {
+  box-sizing: border-box;
+  width:100%;
+}
+
+input[type=submit]{
+  color:rgba(64,74,85,1);
+  font-weight:bold;
+  font-size:25px;
+  position:fixed;
+  max-width:200px;
+  height:40px;
+  right:100px;  
+  bottom:5px;
+  background-color:rgba(238,72,60,1);
+  outline: 2px solid  ; 
+}
+
+a {
+  color:rgba(64,74,85,1);
+  font-weight:bold;
+  font-size:25px;
+  position:fixed;
+  max-width:200px;
+/*  height:40px;*/
+  right:200px;  
+  bottom:5px;
+  background-color:rgba(238,72,60,1);
+  outline: 2px solid;
+  padding:0.2em 0.2em  0.2em 0em;
+  text-decoration:none;
+}
+
+a:hover {
+  background-color:#42ffbb;
+  -webkit-transition: background 0.5s linear;
+  -moz-transition: background 0.5s linear;
+  -ms-transition: background 0.5s linear;
+  -o-transition: background 0.5s linear;
+  transition: background 0.5s linear;
+}
+
+
