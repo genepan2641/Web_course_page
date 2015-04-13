@@ -3,7 +3,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> 
-<html class="no-js"> <!--<![endif]-->
+<html lang="en"> <!--<![endif]-->
 <head>
 	<title>課程詳細資料</title>
     <meta charset="utf-8">
@@ -15,99 +15,115 @@
     <link rel="stylesheet" type="text/css" href="course page CSS.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://raw.github.com/necolas/normalize.css/master/normalize.css">
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 
-<body>
+<body class="container">
 	<section>
 	<h2>課程</h2>
-    <div class="first_group">
-      <div class="year_semester">
+    <div class="first_group row">
+      <div class="year_semester col-xs-12 col-sm-12 col-md-6">
           <h1>學年/學期 Academic Year/Semester</h1>
           <p>103 學年 第 2 學期</p>
       </div>
-      <div class="course_name">
-          <h1>課程名稱 Course Name781007-001</h1>
+      <div class="course_name col-xs-12 col-sm-12 col-md-6">
+          <h1>課程名稱 Course Name <br>781007-001</h1>
           <p>(中 Ch.)&nbsp; Web程式設計</p>
           <p>(英 Eng.)&nbsp; Web Programming</p>
       </div>
     </div>
-    <div class="second_group">
-      <div class="instructor">
-          <h1>授課教師 <br> Instructor</h1>
+
+    <div class="second_group row">
+      <div class="instructor col-xs-12 col-sm-12 col-md-4">
+          <h1>授課教師 Instructor</h1>
           <p>余能豪</p>
       </div>
-      <div class="course_type">
-          <h1>修別 <br> Type of Credit</h1>
+      <div class="course_type col-xs-12 col-sm-12 col-md-4">
+          <h1>修別 Type of Credit</h1>
           <p>群修</p>
       </div>
-      <div class="credits">
-          <h1>學分數 <br> No. of Credits</h1>
+      <div class="credits col-xs-12 col-sm-12 col-md-4">
+          <h1>學分數 No. of Credits</h1>
           <p>3.0</p>
       </div>
     </div>
-    <div class="narrative">
-   		<h1>備註 Note</h1>
-		<p>限學程同學方得修習。</p>
-		<h1>課程目標 Course objectives</h1>
-		<p>本課程旨在介紹WWW的基本運作原理並以其為平台開發應用程式，包含HTML5/CSS3動態網頁製作、網頁物件模型(DOM)、JavaScript程式設計與雲端應用等。</p>
-		<h1>課程大綱 Course Description</h1>
-		<p>本課程涵蓋網路平台之最新技術如HTML5, CSS3, Javascript, JSON, JQuery等，並介紹國內外網站及網路行銷活動範例，培養學生網頁應用程式之開發能力及資訊架構設計能力，最後能設計兼具功能與美感的動態網站。</p>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-6">
+        <div class="row">
+          <div class="narrative col-xs-12 col-sm-12 col-md-12">
+         		<h1>備註 Note</h1>
+      		<p>限學程同學方得修習。</p>
+      		<h1>課程目標 Course objectives</h1>
+      		<p>本課程旨在介紹WWW的基本運作原理並以其為平台開發應用程式，包含HTML5/CSS3動態網頁製作、網頁物件模型(DOM)、JavaScript程式設計與雲端應用等。</p>
+      		<h1>課程大綱 Course Description</h1>
+      		<p>本課程涵蓋網路平台之最新技術如HTML5, CSS3, Javascript, JSON, JQuery等，並介紹國內外網站及網路行銷活動範例，培養學生網頁應用程式之開發能力及資訊架構設計能力，最後能設計兼具功能與美感的動態網站。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-6">
+        <div class="row">
+        <div class="schedule col-xs-12 col-sm-12 col-md-12">
+    		<h1>上課進度 Class Schedule</h1>
+    			<ol class="schedule_lists">
+    				<li>Course Introduction / Git </li>
+    				<li>HTML5 </li>
+    				<li>CSS3 (I) </li>
+    				<li>CSS3 (II) </li>
+    				<li>IA - Analysis </li>
+    				<li>Grid system / bootstrap</li>
+    				<li>IA presentation </li>
+    				<li>Responsive design</li>
+    				<li>Midterm </li>
+    				<li>Javascript (I) / DOM </li>
+    				<li>Javascript (II) / JQuery </li>
+    				<li>Parse / JSON </li>
+    				<li>校慶運動會</li>
+    				<li>Heroku / Node.js </li>
+    				<li>Websocket </li>
+    				<li>Guest speaker </li>
+    				<li>Google Analytics </li>
+    				<li>Final demo</li>
+    			</ol>
+      	</div>
+        </div>
+      </div>
     </div>
-    <div class="schedule">
-		<h1>上課進度 Class Schedule</h1>
-			<ol class="schedule_lists">
-				<li>Course Introduction / Git </li>
-				<li>HTML5 </li>
-				<li>CSS3 (I) </li>
-				<li>CSS3 (II) </li>
-				<li>IA - Analysis </li>
-				<li>Grid system / bootstrap</li>
-				<li>IA presentation </li>
-				<li>Responsive design</li>
-				<li>Midterm </li>
-				<li>Javascript (I) / DOM </li>
-				<li>Javascript (II) / JQuery </li>
-				<li>Parse / JSON </li>
-				<li>校慶運動會</li>
-				<li>Heroku / Node.js </li>
-				<li>Websocket </li>
-				<li>Guest speaker </li>
-				<li>Google Analytics </li>
-				<li>Final demo</li>
-			</ol>
-	</div>
-    <div class="third_group">
-      <div class="standards">		
-          <h1>課程要求/評分標準 Course requirements/Grading standards</h1>
-          <p>課堂作業(35%) 、期中作業(20%)及期末實作成品成果展示(30%)</p>
-      </div>
-      <div class="references">
-          <h1>
-              參考書目 Textbook &amp; references
-              <br>
-              <strong>（為維護智慧財產權，請務必使用正版書籍）</strong>
-          </h1>
-              <ul>
-                  <li>Eric Freeman, Elisabeth Robson(2011), Head First HTML5 Programming: Building Web Apps with JavaScript, O'Reilly </li>
-                  <li>Crockford Douglas, JavaScript: The Good Parts, O'Reilly</li>
-              </ul>
-      </div>
-      <div class="attachment">		
-          <h1>本課程附件 Course attachments</h1>
-          <p>N/A</p>
-      </div>
-    </div>	
+
+    <div class="row">
+      <div class="third_group">
+        <div class="standards col-xs-12 col-sm-12 col-md-6">		
+            <h1>課程要求/評分標準 Course requirements/Grading standards</h1>
+            <p>課堂作業(35%) 、期中作業(20%)及期末實作成品成果展示(30%)</p>
+        </div>
+        <div class="references col-xs-12 col-sm-12 col-md-6">
+            <h1>
+                參考書目 Textbook &amp; references
+                <br>
+                <strong>（為維護智慧財產權，請務必使用正版書籍）</strong>
+            </h1>
+                <ul>
+                    <li>Eric Freeman, Elisabeth Robson(2011), Head First HTML5 Programming: Building Web Apps with JavaScript, O'Reilly </li>
+                    <li>Crockford Douglas, JavaScript: The Good Parts, O'Reilly</li>
+                </ul>
+        </div>
+        <div class="attachment col-xs-12 col-sm-12 col-md-12">		
+            <h1>本課程附件 Course attachments</h1>
+            <p>N/A</p>
+        </div>
+      </div>	
+    </div>
 	</section>
 
-	<aside class="box">
-        <div class="analysis">
+	<aside class="box row">
+        <div class="analysis col-xs-12 col-sm-12 col-md-4">
           <img src="https://drive.google.com/uc?export=view&id=0B3mOf5fPFGMIS1BEcllFUDI3TUU" alt="核心能力分析圖">
           <br>
           <img src="https://drive.google.com/uc?export=view&id=0B3mOf5fPFGMIM0xyby1Pdjhfc0U" alt="網狀圖">
         </div>
-        <div class="self_evaluation">
+        <div class="self_evaluation col-xs-12 col-sm-12 col-md-4">
           <p><strong>學生自評核心能力填答率: 0% (0/32)</strong><p>
           <ul><strong>能力項目說明：</strong>
               <li>A.具備發現與解決問題之能力</li>
@@ -118,7 +134,7 @@
               <li>F.具備企劃整合與溝通能力</li>
           </ul>
         </div>
-        <div class="proportion">
+        <div class="proportion col-xs-12 col-sm-12 col-md-4">
           <img src="https://drive.google.com/uc?export=view&id=0B3mOf5fPFGMINTlub0gtanZySlk" alt="授課方式比例圖">
           <br>
           <img src="https://drive.google.com/uc?export=view&id=0B3mOf5fPFGMIZW5XS2pBZElEMzg" alt="圓餅圖">
