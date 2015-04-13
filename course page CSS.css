@@ -1,6 +1,9 @@
 body {
   background-image:url(http://subtlepatterns.com/patterns/footer_lodyas.png);
-  border: 3px ridge rgba(60,142,238,0.5);
+  border: 1px solid #20ABCC;
+  padding-top:100px;
+  -webkit-border-radius: 15px 15px 15px 15px;
+  border-radius: 15px 15px 15px 15px;
   margin-bottom:45px;
 }
 
